@@ -9,9 +9,9 @@ export class AppController {
   getHello(): string {
     return this.appService.getHello();
   }
-  @Get('/home')
+  @Get('home')
   FindAll():string{
     return this.appService.FindAll();
   }
-  
+
 }
